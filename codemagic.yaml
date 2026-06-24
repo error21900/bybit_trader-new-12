@@ -4,6 +4,9 @@ workflows:
     environment:
       flutter: stable
     scripts:
+      - name: Initialize Android Project Files
+        script: |
+          flutter create --platforms=android .
       - name: Get dependencies
         script: |
           flutter pub get
