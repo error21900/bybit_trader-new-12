@@ -1,0 +1,43 @@
+name: bybit_trader
+description: Professional Bybit Trading App with UT Bot Alerts
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & State Management
+  provider: ^6.0.0
+  get: ^4.6.5
+  
+  # Networking
+  http: ^1.1.0
+  dio: ^5.3.0
+  
+  # Data & Storage
+  shared_preferences: ^2.2.0
+  json_serializable: ^6.7.0
+  
+  # Charts & UI
+  fl_chart: ^0.65.0
+  flutter_svg: ^2.0.0
+  
+  # Crypto & Security
+  crypto: ^3.0.2
+  
+  # Time handling
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.0
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
